@@ -15,7 +15,7 @@ StormLib-Node is a Node.js package that provides bindings for the [StormLib C++ 
 ## 🚀 Installation
 
 ```bash
-npm install stormlib-node-bindings
+npm install @qq200774491/stormlib-node-bindings
 ```
 
 ## 🛠️ Usage
@@ -23,7 +23,7 @@ npm install stormlib-node-bindings
 Here's a basic example of how to use StormLib-Node:
 
 ```javascript
-import { Archive } from 'stormlib-node-bindings';
+import { Archive } from '@qq200774491/stormlib-node-bindings';
 
 // Create a new MPQ archive
 const archive = new Archive('new_archive.mpq', { create: true });

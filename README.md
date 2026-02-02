@@ -1,8 +1,8 @@
-# StormLib-Node 🌪️
+# StormLib-Node
 
 StormLib-Node is a Node.js package that provides bindings for the [StormLib C++ library](https://github.com/ladislav-zezula/StormLib), allowing you to work with MPQ (Mo'PaQ) archives in your Node.js projects for World of Warcraft and other Blizzard games.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Installation](#-installation)
 - [Usage](#-usage)
@@ -12,13 +12,13 @@ StormLib-Node is a Node.js package that provides bindings for the [StormLib C++ 
 - [Contributing](#-contributing)
 - [License](#-license)
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 npm install @qq200774491/stormlib-node-bindings
 ```
 
-## 🛠️ Usage
+##  Usage
 
 Here's a basic example of how to use StormLib-Node:
 
@@ -42,7 +42,7 @@ console.log('Files in the archive:', files);
 archive.close();
 ```
 
-## 📚 API
+##  API
 
 ### `Archive` class
 
@@ -61,7 +61,7 @@ archive.close();
 - `listFiles()`: List all files in the archive
 - `close()`: Close the archive
 
-## 🧪 Development
+##  Development
 
 To set up the project for development:
 
@@ -86,7 +86,7 @@ To set up the project for development:
    npm run install
    ```
 
-## 🧬 Testing
+##  Testing
 
 To run the tests:
 
@@ -96,7 +96,7 @@ npm test
 
 The tests use Mocha as the test runner and Chai for assertions.
 
-## 📦 Packaging & Release Artifacts
+##  Packaging & Release Artifacts
 
 Generate the binary zip (for attaching to GitHub) and the npm tarball in one step:
 
@@ -108,11 +108,11 @@ This command rebuilds StormLib, recompiles the addon, executes the test suite, b
 
 ## 🆕 What's New (v1.1.0)
 
-- ✅ Full Unicode path support on Windows, including MPQ archives and files stored in中文目录.
-- 🧪 Added regression tests that exercise Chinese directory/file names to prevent future regressions.
-- 🛠️ Improved StormLib compilation script with Visual Studio 2022 + `/MT` runtime enforcement for seamless node-gyp builds.
+-  Full Unicode path support on Windows, including MPQ archives and files stored in中文目录.
+-  Added regression tests that exercise Chinese directory/file names to prevent future regressions.
+-  Improved StormLib compilation script with Visual Studio 2022 + `/MT` runtime enforcement for seamless node-gyp builds.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -122,11 +122,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - [StormLib](https://github.com/ladislav-zezula/StormLib) by Ladislav Zezula
 - All contributors who have helped with code, bug reports, and suggestions
